@@ -10,7 +10,6 @@ from main_functions import (
     r_strongly_connected_components,
     r_proximity_graph,
     agony_scores,
-    r_scc_graphs,
     autonomous_pairs,
 )
 #------------------------------------------------------------------------------------------------------------------------
