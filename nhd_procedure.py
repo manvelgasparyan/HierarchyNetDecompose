@@ -36,7 +36,7 @@ if __name__ == '__main__':
     files_path, files_names = get_files()
     #---
     #Define the file path for the json file
-    directory_path = r"D:\Research\My Hierarchical decomposition\Benchmarking data in json format"
+    directory_path = directory_path = filedialog.askdirectory(title='Select Directory to Save Output')
     os.makedirs(directory_path, exist_ok=True)
     #---
     #Open the file for benchmarking
